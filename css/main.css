@@ -1,0 +1,381 @@
+body {
+    background: url("../img/background.jpg") top center no-repeat local;
+    color: #ffffff;
+    font: normal 100% Verdana, Georgia;
+}
+.wrapper  {
+
+  width: 1280px;
+  height: 800px;
+  margin: 0 auto;
+}
+.navigation  {
+  background: rgba(0, 75, 142, .6);
+  color: #ffffff;
+  height: 44px;
+  line-height: 44px;
+  padding: 0 6.7%;
+  font-size: .625em;/*16px/16px=1em*/
+}
+.navigation a:link  {
+  color: #ffffff;
+  font-size: .625em;/*16px/16px=1em*/
+  text-decoration: none;
+}
+.navigation a:visited  {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navigation a:active  {
+  color: #ff252f;
+  text-decoration: none;
+}
+.navigation a:hover  {
+  color: #28ff53;
+  text-decoration: underline;
+}
+.navigation__companyName  {
+  display: inline-block;
+  float: left;
+  top: 10%;
+  position: relative;
+  margin-left: 115px;
+}
+.navigation__point  {
+  display: inline-block;
+  float: left;
+  margin: 0 15px;
+  font-size: 10px;
+  word-spacing: 50px;
+  float: left;
+}
+/*Begin class="navigation__search"*/
+.navigation__search  {
+  width: 20px;
+  margin: 0 auto;
+  float: left;
+}
+.navigation__search:after  {
+  clear: both;
+  display: table;
+  content: "";
+}
+.navigation__search__point  {
+  float: left;
+  width: 27px;
+  height: 27px;
+  margin: 10px;
+  text-align: center;
+  line-height: 27px;
+  font-size: 0;
+}
+.navigation__line__point  {
+    float: left;
+    width: 2px;
+    height: 16px;
+    margin: 10px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 0;
+}
+.navigation__line  {
+    width: 20px;
+    margin: 0 auto;
+    margin-left: 25px;
+    float: left;
+}
+.navigation__line:after  {
+    clear: both;
+    display: table;
+    content: "";
+}
+.lines  {
+    display: inline-block;
+    vertical-align: middle;
+}
+.lines__vertical__line  {
+    width: 17px;
+    height: 16px;
+    background: url("../img/vertical_line.png") no-repeat;
+}
+.navigation__down__point  {
+    float: left;
+    width: 10px;
+    height: 5px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 0;
+    margin-left: -15px;
+    margin-top: 15px;
+
+}
+.navigation__down  {
+    width: 10px;
+    margin: 0 auto 0 25px;
+    float: left;
+}
+.navigation__down:after  {
+    clear: both;
+    display: table;
+    content: "";
+}
+.downs  {
+    display: inline-block;
+    vertical-align: middle;
+}
+.downs__under  {
+    width: 10px;
+    height: 5px;
+    background: url("../img/down_light.png") no-repeat;
+}
+.find  {
+  display: inline-block;
+  vertical-align: middle;
+}
+.find__search  {
+  width: 17px;
+  height: 16px;
+  background: url("../img/search.png") no-repeat;
+}
+/*End class="navigation__search"*/
+.navigation__client  {
+  display: inline-block;
+  float: left;
+}
+/*@font-face*/
+
+#destinations  {
+  margin-left: 465px;
+}
+
+.main_menu  {
+  clear: both;
+  background: rgba(255, 255, 255, 1);
+  width: 1280px;
+  height: 96px;
+  padding: 0;
+  margin: 0;
+}
+.main_menu a:link  {
+    color: #094798;
+    font-size: .625em;/*10px/16px=.625em*/
+    text-decoration: none;
+}
+.main_menu a:visited  {
+    color: #094798;
+    text-decoration: none;
+}
+.main_menu a:active  {
+    color: #ff252f;
+    text-decoration: none;
+}
+.main_menu a:hover  {
+    color: #28ff53;
+    text-decoration: underline;
+}
+/*
+logotype: 213px*96px;
+vertical_line: 2px*96px;
+from: 228px*96px;
+when: 233px*96px;
+date: 143px*96px;
+duration: 143px*96px;
+travelers: 200px*96px;
+leita: 108px*96px.
+*/
+.logotype  {
+  width: 213px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.vertical_line  {
+  width: 2px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.from  {
+  width: 228px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.when  {
+  width: 233px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.date  {
+  width: 143px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.duration  {
+  width: 143px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.traveler  {
+  width: 200px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.leita  {
+  width: 108px;
+  height: 96px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+}
+.logotype:after,.vertical_line:after,
+.from:after, .when:after, .date:after,
+.duration:after, .traveler:after, .leitas:after  {
+  clear: both;
+  display: table;
+  content: "";
+}
+.icon  {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon_logotype  {
+  width: 200px;
+  height: 42px;
+  margin-top: 25px;
+  background: url("../img/logotype.png") no-repeat;
+}
+.icon_vertical_line  {
+  width: 1px;
+  height: 96px;
+  background: url("../img/vertical_line(long).png") no-repeat;
+}
+.icon_airplane  {
+  width: 200px;
+  height: 31px;
+  margin-top: 20px;
+  background: url("../img/airplane.png") no-repeat;
+}
+.icon_palm  {
+  width: 180px;
+  height: 30px;
+  margin-top: 20px;
+  background: url("../img/palm.png") no-repeat;
+}
+.icon_text  {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.icon_people {
+  width: 39px;
+  height: 30px;
+  margin-top: 20px;
+  background: url("../img/people.png") no-repeat;
+}
+.icon_leitas  {
+  width: 108px;
+  height: 56px;
+  margin-top: 20px;
+  background: url("../img/leita.png") no-repeat;
+}
+.icon_down {
+    width: 10px;
+    height: 5px;
+    background: url("../img/down.png") no-repeat;
+}
+@font-face  {
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+/*Media queries*/
+@media screen and (max-width: 320px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+    font-size: 5px;/**/
+  }
+}
+@media screen and (max-width: 360px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 480px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 540px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 600px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 640px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 720px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 768px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 800px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 854px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 864px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 960px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 1024px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+  }
+}
+@media screen and (max-width: 1152px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1280px)  {
+  body  {
+    background: url("../img/background.jpg") top center no-repeat local;
+    font-size: 16px;/*16px/16px=1em*/
+  }
+}
